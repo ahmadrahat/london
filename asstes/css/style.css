@@ -1,0 +1,632 @@
+:root{
+    --text:'Maven Pro', sans-serif;
+    --p:'Playfair Display', serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper{
+    width: 100%;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+/* common css */
+/* heading  start */
+.header-bg{
+    width: 100%;
+    height: 90px;
+}
+.header-bg .header .logo{
+    float: left;
+}
+.header-bg .header .logo img{
+    height: 90px;
+}
+.header-bg .header .menu-list {
+    width: 50%;
+    height: 90px;
+    float: right;
+}
+.header-bg .header .menu-list ul {
+    float: right;
+}
+.header-bg .header .menu-list ul li {
+    float: left;
+}
+.header-bg .header .menu-list ul li a{
+    text-transform: capitalize;
+    font-family: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    padding: 10px 40px;
+    line-height: 100px;
+    transition: all linear 0.4s;
+}
+.header-bg .header .menu-list ul li a:hover{
+    color: red;
+}
+/* heading emd */
+/* banner start */
+.banner-bg{
+    width: 100%;
+    height: 593px;
+    position: relative;
+}
+.banner-bg .text{
+    width: 232px;
+    height: 593px;
+    position: absolute;
+}
+.banner-bg  .text p{
+    padding-left: 5px;
+    padding-top: 545px;
+    font-family: var(--p);
+    font-size: 20px;
+    font-weight: 400 ;
+    font-style: italic;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.banner-bg .text .rot {
+    width: 1px;
+    height: 1px;
+    top: 584px;
+    left:71px ;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+.banner-bg .text .rot h4{
+    font-size: 136px;
+    font-family: var(--p);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.banner-bg .img{
+    position: absolute;
+}
+.banner-bg .img img{
+    padding-left: 232px;
+    display: inline-block;
+}
+/* banner end */
+.feature-bg{
+    width: 100%;
+    height: 250px;
+}
+.feature-bg .feature .in h4{
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: var(--p);
+    text-transform: capitalize;
+    float: left;
+    text-align: center;
+    padding-left: 400px;
+    padding-top: 75px;
+}
+.feature-bg .feature .in p{
+    width: 400px;
+    padding-left: 30px;
+    float: left;
+    text-align: left;
+    font-family: var(--text);
+    font-size: 13px;
+    font-weight:400 ;
+    line-height: 25px;
+    padding-top: 80px;
+    color: #6e7478;
+}
+.info {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.te h4{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: var(--p);
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 222px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+.te p{
+    width: 500px;
+    padding-left: 30px;
+    text-align: left;
+    font-family: var(--text);
+    font-size: 14.5px;
+    font-weight:400 ;
+    line-height: 25px;
+    padding-left: 222px;
+    color: #6e7478;
+}
+.info .ab img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 500px;
+}
+.info h5{
+    font-size: 14px;
+    font-family: var(--text);
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 222px;
+    padding-top: 60px;
+    color: #6e7478;
+}
+.xt h4{
+    width: 300px;
+    font-size: 56px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 224px;
+    padding-top: 5px;
+    float: left;
+}
+.xt p{
+    float: left;
+    width: 450px;
+    color: #6e7478;
+    font-family: var(--text);
+    font-size: 15px;
+    font-weight:400 ;
+    line-height: 22px;
+    padding-top: 17px;
+}
+/* end */
+.transport{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.transport h4{
+    font-family: var(--p);
+    font-size: 100px;
+    font-weight: 400;
+    padding-top: 65px;
+    padding-left: 221px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.transport .transport-bg img{
+    height: 500px;
+    padding-left: 222px;
+    position: absolute;
+}
+.transport .transport-bg .over{
+    width: 750px;
+    height: 500px;
+    background: #05050549;
+    position: absolute;
+    top: 228px;
+    left: 222px;
+}
+.transport .transport-bg .over h4{
+    color: white;
+    font-size: 45px;
+    font-family: var(--p);
+    font-weight: 400;
+    padding-left:75px;
+    padding-top: 250px;
+}
+
+.transport .transport-bg .over p{
+    color: white;
+    font-family: var(--text);
+    font-size: 14px;
+    line-height: 22px;
+    width: 450px;
+    padding-left: 77px;
+}
+.transport-text{
+    position: absolute;
+}
+.transport-text h5{
+    font-size: 16px;
+    width: 220px;
+    font-family: var(--text);
+    text-align: left;
+    line-height: 32px;
+    padding-left: 1055px;
+    text-transform: capitalize;
+    color: #6e7478;
+}
+.transport-text p{
+    position: absolute;
+    bottom:-25px;
+    right: 0;
+    font-family: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* end */
+/* start */
+.more{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.more p{
+    font-size:14px ;
+    font-family: var(--p);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 58px;
+    padding-top: 30px;
+}
+.more .tag h4{
+    letter-spacing: 7px;
+    font-family: var(--p);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 226px;
+}
+.tag p{
+    letter-spacing: 3px;
+    padding-left: 520px;
+    padding-top: 0px;
+}
+.port{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    margin-top: 40px;
+}
+.port .p1 img{
+    height: 250px;
+    float: left;
+    padding-left: 227px;
+}
+.port .p2 img{
+    height: 250px;
+    float: left;
+    padding-left: 20.5px;
+}
+.port .p3 img{
+    height: 250px;
+    float: left;
+    padding-left: 21px;
+}
+/* end */
+/* start */
+.fact{
+    width: 100%;
+    height: 700px;
+}
+.fact h4{
+    font-family: var(--p);
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-left: 226px;
+    padding-top: 20px;
+}
+.fact p{
+    font-size:16px ;
+    font-family: var(--p);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 430px;
+    font-style: italic;
+    padding-top: 0px;
+}
+.fa p#one{
+    color:#6e7478;
+    padding-left: 320px;
+    width: 210px;
+    font-family: var(--text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: right;
+    float: left;
+    padding-top: 20px;
+}
+.fa p#two{
+    color: #6e7478;
+    padding-left: 50px;
+    width: 400px;
+    font-family: var(--text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    float: left;
+    padding-top: 20px;
+}
+.fa p#three{
+    color: #6e7478;
+    padding-left: 30px;
+    width: 300px;
+    font-family: var(--text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    float: left;
+    padding-top: 20px;
+}
+.fact img{
+    padding-left: 395px;
+}
+/* end */
+/* start */
+.night{
+    width: 100%;
+    height: 950px;
+    position: relative;
+}
+.night .night-bg img{
+    height: 600px;
+    padding-left: 252px;
+    padding-top: 200px;
+    position: absolute;
+}
+.night .night-bg .over{
+    width: 1096px;
+    height: 500px;
+    background: #0505052c;
+    position: absolute;
+    top: 200px;
+    left: 252px;
+}
+.night .night-bg .over h4{
+    color: white;
+    font-size: 50px;
+    font-family: var(--p);
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-left:75px;
+    padding-top: 336px;
+}
+
+.night .night-bg .over p{
+    color: white;
+    font-family: var(--text);
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 5px;
+    width: 550px;
+    padding-left: 77px;
+}
+.night .night-bg .nt p{
+    width: 350px;
+    height: 1px;
+    top: 622px;
+    font-family: var(--p);
+    font-weight: 400;
+    font-size: 24px;
+    left:-25px ;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+/* end */
+/* start */
+.visit{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.visit h4{
+    font-family: var(--p);
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 65px;
+    padding-left: 251px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.visit p{
+    width: 600px;
+    font-family: var(--text);
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7478;
+    line-height: 23px;
+    padding-left: 253px;
+}
+.visit .visit-bg .w1 {
+    position: absolute;
+    float: left;
+}
+.visit .visit-bg .w1 img{
+    height: 500px;
+    padding-left: 251px;
+    padding-top: 20px;
+}
+.visit .visit-bg .over{
+    width: 599px;
+    height: 399px;
+    position: absolute;
+    top: 96px;
+    left: 371px;
+}
+.visit .visit-bg .over h4{
+    color: white;
+    font-size: 35px;
+    font-family: var(--p);
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-left:381px;
+    padding-top: 235px;
+}
+
+.visit .visit-bg .over p{
+    color: white;
+    font-family: var(--text);
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 5px;
+    width: 502px;
+    padding-left: 65px;
+}
+.visit .visit-bg .w2{
+    position: absolute;
+}
+.visit .visit-bg .w2 img{
+    height: 150px;
+    padding-left: 1025px;
+    padding-top: 20px;
+}
+.visit .visit-bg .w2 h5{
+    padding-left: 1200px;
+    font-family: var(--p);
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+}
+.visit .visit-bg .w3{
+    position: absolute;
+}
+.visit .visit-bg .w3 img{
+    height: 150px;
+    padding-left: 1025px;
+    padding-top: 195px;
+}
+.visit .visit-bg .w4{
+    position: absolute;
+}
+.visit .visit-bg .w4 img{
+    height: 150px;
+    padding-left: 1025px;
+    padding-top: 369px;
+}
+/* end */
+/* start */
+.fouter {
+    width: 100%;
+    height: 300px;
+}
+.fouter h4{
+    padding-left: 251px;
+    font-family: var(--p);
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.fouter p{
+    padding-left: 251px;
+    font-family: var(--text);
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    width: 600px;
+    text-align: left;
+    color: #6e7478;
+    text-transform: capitalize;
+}
+/* end */
+/* start */
+.end{
+    width: 100%;
+    height: 200px;
+}
+.end .contact{
+    width: 300px;
+    height: 250px;
+    margin-left: 250px;
+    text-align: left;
+    float: left;
+}
+.end .contact h4{
+    font-family: var(--p);
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.end .contact p{
+    font-family: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+    line-height: 28px;
+    color: #6e7478;
+}
+.end .offi{
+    width: 300px;
+    height: 250px;
+    margin-left: 140px;
+    text-align: left;
+    float: left;
+}
+.end .offi h4{
+    font-family: var(--p);
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.end .offi p{
+    font-family: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    width: 160px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+    line-height: 28px;
+    color: #6e7478;
+}
+/* end */
+.book {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.book .ab1 hr{
+    left: 250px;
+    top: 35px;
+    position: absolute;
+    width: 750px;
+}
+.book .ab1 .trip a{
+    border: 1px solid #6e7478;
+    color: black;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    top: 17px;
+    right: 180px;
+    transition: all linear 0.4s;
+    text-transform: capitalize;
+}
+.book .ab1 .trip a:hover{
+    background-color: rgba(255, 0, 0, 0.63);
+    border-color:none;
+    color: white;
+}
+.desi p{
+    position: absolute;
+    top: 140px;
+    right: 10px;
+    font-family: var(--text);
+    font-size: 16px;
+    color: #6e7478;
+    text-transform: capitalize;
+}
+.desi p span {
+    color: black;
+}
